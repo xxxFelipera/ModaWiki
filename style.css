@@ -1,0 +1,133 @@
+<style>
+    /* Adicione este estilo no cabeçalho do seu HTML ou em seu arquivo CSS */
+    .topico-moda-nacional {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .imagem-topico,
+    .imagem-topico2,
+    .imagem-topico3 {
+        display: inline-block;
+        width: 25%; /* ajuste conforme necessário, dependendo do espaço disponível */
+        box-sizing: border-box;
+        margin-bottom: 20px;
+    }
+
+    .imagem-topico img,
+    .imagem-topico2 img,
+    .imagem-topico3 img {
+
+        width: 100%;
+        height: auto;
+        border-radius: 8px; /* Adicione bordas arredondadas, se desejar */
+    }
+
+    .imagem-topico2 {
+        margin-left: 7%; /* Adicione um pequeno espaçamento entre as imagens */
+    }
+    .imagem-topico3 {	
+        margin-left: 7%; /* Adicione um pequeno espaçamento entre as imagens */
+    }
+    .imagem-topico h3,
+    .imagem-topico2 h3,
+    .imagem-topico3 h3 {
+	text-align: center; 
+        margin-top: 10px; /* Adicione um pequeno espaçamento entre o título e a imagem */
+    }
+
+    .topico-estilos {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .topico-moda-nacional img,
+    .topico-estilos img {
+        width: 100%;
+	max-width: 900px;
+        height: auto; 
+        display: block;
+        margin: 0 
+        border-radius: 8px;
+    }
+    .topico-moda-nacional h3,
+    .topico-estilos h3 {
+        margin-top: 10px;
+    }
+ #rodape {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        position: relative;
+        z-index: 1; /* Garante que o rodapé tenha um índice Z menor que o conteúdo principal */
+    }
+</style>
+
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.filme-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.filme-info img {
+    max-width: 300px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+
+nav {
+    background-color: #555;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+section {
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
