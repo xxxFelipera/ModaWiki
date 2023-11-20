@@ -62,6 +62,8 @@
     }
     body {
         background-color: #56070c; 
+	overflow-x: hidden;
+        overflow-y: auto;
     }
 </style>
 
